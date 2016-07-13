@@ -22,8 +22,8 @@ footer-links:
   facebook:
   flickr:
   github: barryclark/jekyll-now
-  instagram:instagram.com/alpinerlb
-  linkedin:https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button
+  instagram: instagram.com/alpinerlb
+  linkedin: https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: jekyllrb
