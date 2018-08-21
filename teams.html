@@ -1,0 +1,831 @@
+<html >
+
+<head>
+<!--link rel="stylesheet" type="text/css" href="/css/bootstrap-reboot.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css"-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <style>
+  .table .td {padding:0;}  
+  td.android {background-color:#DDFADD;}
+  td.ios {background-color:#F0F0F0;}
+  td.qa {background-color:#FFFFDD;}
+  td.server {background-color:#E0F0FF;color:#000;}
+  td.web {background-color:#FFE7E7;}
+
+  .android, .ios, .qa, .server, .web {display:block;text-align:center;padding:3px 0;}
+  .android {background-color:#ACD67C;}
+  .ios {background-color:#BDBCBD;}
+  .qa {background-color:#F8E41C;}
+  .server {background-color:#4a90e2;color:#fff;}
+  .web {background-color:#F77484;}
+  </style>
+</head>
+
+<body>
+
+<h1>2018.R3-PI3 - All Feature Teams</h1>
+
+<h2>Teams</h2>
+
+<table class="table table-striped table-bordered">
+ <thead>
+  <tr >
+        <th scope="col">Train</th>
+        <th scope="col">Teams  </br>
+            (F=Front, S=Server, W=Web only)</th>
+        <th scope="col">PM</th>
+        <th scope="col">PO</th>
+        <th scope="col">SM</th>
+        <th scope="col">Train Architect</th>  
+   </tr>
+ </thead>
+ 
+ <tr>
+  <td>
+  B
+  </td>
+  <td>
+  Sunshine (F)    <br />
+  Durango (S)  <br />
+  Skull (S) (Until OPCC complete)   <br />
+  <p>BeeGees  </td>
+  <td>
+  Cat Chu
+  </td>
+  <td>
+  Jobita Alukka    <br />
+  Justin Flanders  <br />
+  Christian Duarte
+  </td>
+  <td>
+  Annette    <br />
+  Lori    <br />
+  Jason    <br />
+  Fish
+  </td>
+  <td>
+  Burak Say
+  </td>
+ </tr>
+ <tr>
+  <td>
+  C
+  </td>
+  <td>
+  Treeline (F)   <br />
+  Condor (F)
+  <p>CeeDees
+  </td>
+  <td>
+  Karin Anderson
+  </td>
+  <td>
+  Mike Cioffi
+  Rachel Mansoor
+  </td>
+  <td>
+  Lori
+  Seth
+  Fish
+  </td>
+  <td>
+  Joachim Martin
+  </td>
+ </tr>
+ <tr>
+  <td>
+  D
+  </td>
+  <td>
+  Echo (S)
+  </td>
+  <td>
+  Mark Litwin
+  </td>
+  <td>
+  Max Monley 
+  </td>
+  <td>
+  Hemangi
+  </td>
+  <td>
+  Prashant Thumma 
+  </td>
+ </tr>
+ <tr>
+  <td>
+  G
+  </td>
+  <td>
+  Sebago (F)  <br />
+  Moosehead (F)
+  </td>
+  <td>
+  Irina Polsinelli  <br />
+  Jason Lipman
+  </td>
+  <td>
+  Yvonne Perrucci  <br />
+  Karen St. Arnaud
+  </td>
+  <td>
+  Mel  <br />
+  Mel
+  </td>
+  <td>
+  Jenn Tang
+  </td>
+ </tr>
+ <tr>
+  <td>
+  H
+  </td>
+  <td>
+  Fang (W)  <br />
+  Casa Bonita (W)  <br />
+  Mall Ride (W)  <br />
+  </td>
+  <td>
+  Sashidhar  Kokku  <br />
+  Mel Biendara
+  </td>
+  <td>
+  Dan Fasano  <br />
+  Justin Flanders  <br />
+  Dima Brook
+  </td>
+  <td>
+  Jason
+  Deb
+  Deb
+  </td>
+  <td>
+  Jay Compton
+  </td>
+ </tr>
+ <tr>
+  <td>
+  Infrastructure
+  </td>
+  <td>
+  Keystone
+  </td>
+  <td></td>
+  <td>
+  Jeromy Labit
+  </td>
+  <td>
+  Seth
+  </td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>
+  DevOps
+  </td>
+  <td>
+  Carbon
+  </td>
+  <td></td>
+  <td>
+  Matt Marchany
+  </td>
+  <td>
+  Hemangi Mahadik
+  </td>
+  <td></td>
+ </tr>
+ <tr >
+  <td>
+  <p>Data Eng. Team</p>
+  </td>
+  <td>
+  Dublin
+  </td>
+  <td></td>
+  <td>
+  Matt Marchany
+  </td>
+  <td>
+  Hemangi Mahadik
+  </td>
+  <td></td>
+ </tr>
+</table>
+<p> </p>
+<p> </p>
+
+
+<h2>Feature Teams</h2>
+
+<table class="table table-striped table-bordered">
+ <tr>
+        <td></td>
+        <th scope="col">Sunshine </th>
+        <th scope="col">Condor</th>
+        <th scope="col">Treeline</th>
+        <th scope="col">Durango</th>
+        <th scope="col">Casa Bonita</th>
+        <th scope="col">Mall Ride</th>
+        <th scope="col">Staff</th>
+        <th scope="col">Skull Island</th>
+        <th scope="col">Fang Island</th> 
+        <th scope="col">Sebago</th>
+        <th scope="col">Moosehead</th>
+        <th scope="col">Echo</th>
+        <th scope="col">Keystone</th>  
+        <th scope="col">Carbon</th>
+        <th scope="col">Dublin</th>
+ </tr>
+ <tr>
+  <th scope="row"Focus</th>  
+  <td>
+  Mobile
+  </td>
+  <td>
+  Mobile
+  </td>
+  <td>
+  Mobile
+  </td>
+  <td>
+  Server
+  </td>
+  <td>
+  JavaScript
+  </td>
+  <td>
+  JavaScript
+  </td>
+  <td>
+  Staff
+  </td>
+  <td>
+  Server
+  </td>
+  <td>
+  Client
+  </td>
+  <td>
+  Client
+  </td>
+  <td>
+  Client
+  </td>
+  <td>
+  Server
+  </td>
+  <td>
+  Infra &amp; Tools
+  </td>
+  <td>
+  Infra &amp; Tools
+  </td>
+  <td>
+  Data &amp; BI
+  </td>
+ </tr>
+ <tr>
+  <th scope="row">Dir Eng </th>
+  <td>
+  Frank
+  </td>
+  <td>
+  Frank
+  </td>
+  <td>
+  Frank
+  </td>
+  <td>
+  Frank
+  </td>
+  <td>
+  Frank
+  </td>
+  <td>
+  Frank
+  </td>
+  <td>
+  Frank
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Mike Michel
+  </td>
+  <td>
+  Mike Michel
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+ </tr>
+ <tr>
+  <th scope="row">Eng Mgr </th>
+  <td>
+  Matt&nbsp;
+  </td>
+  <td>
+  Matt
+  </td>
+  <td>
+  Ed Suski
+  </td>
+  <td>
+  Brennan
+  </td>
+  <td>
+  Brennan
+  </td>
+  <td>
+  Ed Suski
+  </td>
+  <td></td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Scott Williamson
+  </td>
+  <td>
+  Scott Williamson
+  </td>
+  <td>
+  Kathy Boutselis
+  </td>
+  <td>
+  Jeromy Labit
+  </td>
+  <td>
+  Matt Marchany
+  </td>
+  <td>
+  Matt Marchany
+  </td>
+ </tr>
+ <tr>
+  <th scope="row">Eng Mgr QA</th>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Jen Johnson
+  </td>
+  <td>
+  Jen Johnson
+  </td>
+  <td>
+  Jen Johnson
+  </td>
+  <td>
+  Jen Johnson
+  </td>
+  <td>
+  Jen Johnson
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <th scope="row">Tech Lead</th>  
+  <td>
+  Colin 
+  </td>
+  <td>
+  Joe 
+  </td>
+  <td>
+  Ryan Matze
+  </td>
+  <td>
+  Darrin
+  </td>
+  <td>
+  Pete&nbsp;
+  </td>
+  <td>
+  Seth Rauch
+  </td>
+  <td></td>
+  <td></td>
+  <td>
+  Chris Merritt
+  </td>
+  <td>
+  <p><span> Chaudhry
+  </td>
+  <td>
+  Anu Tummala
+  </td>
+  <td></td>
+  <td>
+  Jeromy Labit</span>
+  </td>
+  <td>
+  Matt Marchany</span>
+  </td>
+  <td>
+  Roger Kelly
+  </td>
+ </tr>
+ <tr >
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Rinky Sasidhar
+  </td>
+  <td>
+  Ismail Yusuf
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+<th scope="row"SM</th>  
+<td>
+  Annette
+  </td>
+  <td>
+  Seth
+  </td>
+  <td>
+  Lori Langston
+  </td>
+  <td>
+  Lori
+  </td>
+  <td>
+  Deb
+  </td>
+  <td>
+  Deb Choate
+  </td>
+  <td>
+  Joel N
+  </td>
+  <td>
+  Jason Rose (EST)
+  </td>
+  <td>
+  Jason Rose
+  </td>
+  <td>
+  Melanie Bailey
+  </td>
+  <td>
+  Melanie Bailey
+  </td>
+  <td>
+  Hemang Mahadik
+  </td>
+  <td>
+  Seth Malgieri
+  </td>
+  <td>
+  Hemangi Mahadik
+  </td>
+  <td>
+  Hemangi Mahadik
+  </td>
+ </tr>
+ <!-- ~~ --> 
+ <tr >
+  <td></td>
+  <td>
+  Colin  <p></p><span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Joe    <span class="ios">(iOS)</span> 
+  </td>
+  <td class="ios">
+  Wyatt    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Darrin   <span class="server">(server)</span>
+  </td>
+  <td class="web">
+  Pete   <span class="web">(web)</span>
+  </td>
+  <td>
+  Seth R   <span class="web">(web)</span>
+  </td>
+  <td>
+  Justin    <span class="ios">(iOS)</span> 
+  </td>
+  <td class="server">
+  Geoff Petrie (MDT)   <span class="server">(server)</span>
+  </td>
+  <td>
+  Chris Merritt   <span class="web">(web)</span>
+  </td>
+  <td>
+  Chris Trainor    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Stephen Francis    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Yi Meng   <span class="server">(server)</span>
+  </td>
+  <td>
+  Jeff Babbitt
+  </td>
+  <td>
+  Scott Allard
+  </td>
+  <td>
+  Roger Kelly
+  </td>
+ </tr>
+ 
+ <tr >
+  <td></td>
+  <td>
+  Tyler    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Josh    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Taru    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Heidi   <span class="server">(server)</span>
+  </td>
+  <td>
+  Patrick   <span class="web">(web)</span>
+  </td>
+  <td>
+  TBH   <span class="web">(web)</span>
+  </td>
+  <td class="android">
+  Jon   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Taylor Brooks (CDT)   <span class="server">(server)</span>
+  </td>
+  <td>
+  Bryan Clover   <span class="web">(web)</span>
+  </td>
+  <td>
+  Aaron Yang    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Chandrima Ghosh    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Amod Largo   <span class="server">(server)</span>
+  </td>
+  <td>
+  Jon Poplar
+  </td>
+  <td>
+  Suresh Menda
+  </td>
+  <td>
+  Heather Zhang
+  </td>
+ </tr>
+ 
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Scott M    <span class="ios">(iOS)</span> 
+  </td>
+  <td>
+  Azeem   <span class="server">(server)</span>
+  </td>
+  <td>
+  Zach Bell   <span class="web">(web)</span>
+  </td>
+  <td>
+  Laura   <span class="web">(web)</span>
+  </td>
+  <td>
+  Eric   <span class="web">(web)</span>
+  </td>
+  <td>
+  Shaun Ambrose (MDT)   <span class="server">(server)</span>
+  </td>
+  <td>
+  Ian Anderson   <span class="web">(web)</span>
+  </td>
+  <td>
+  Brian Dellaterra   <span class="web">(web)</span>
+  </td>
+  <td>
+  Allen Li   <span class="web">(web)</span>
+  </td>
+  <td class="qa">
+  Alex Babeu   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Bill Jorgensen
+  </td>
+  <td>
+  Rivlin Pereira
+  </td>
+  <td></td>
+ </tr>
+ 
+ <tr>
+  <td></td>
+  <td>
+  Mike   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Teagan   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Ryan   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  TBH   <span class="server">(server)</span>
+  </td>
+  <td>
+  Rachel   <span class="web">(web)</span>
+  </td>
+  <td>
+  Andrew   <span class="web">(web)</span>
+  </td>
+  <td>
+  Joel   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Andrei Antipin (PDT)   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Cindy Haden   <span class="web">(web)</span>
+  </td>
+  <td>
+  Vidhi Bhardwaj   <span class="web">(web)</span>
+  </td>
+  <td>
+  Yash Pandit   <span class="web">(web)</span>
+  </td>
+  <td></td>
+  <td></td>
+  <td>
+  Kevin Lovely
+  </td>
+  <td></td>
+ </tr>
+ 
+ <tr>
+  <td></td>
+  <td>
+  Carter   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Chris C   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Chris G   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Scott S   <span class="server">(server)</span>
+  </td>
+  <td>
+  Chris B   <span class="web">(web)</span>
+  </td>
+  <td>
+  Jonah   <span class="web">(web)</span>
+  </td>
+  <td></td>
+  <td></td>
+  <td>
+  Igor Dorosvskikh   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Michael Stevens   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Chris Robichaud   <span class="android">(Android)</span> 
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ 
+ <tr>
+  <td></td>
+  <td>Chris G   <span class="qa">(QA)</span></td>
+  <td>
+  Brian   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Yun   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  TBH   <span class="server">(server)</span>
+  </td>
+  <td>
+  Darryl   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Zach A   <span class="qa">(QA)</span>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Khurrum Chaudhry   <span class="android">(Android)</span> 
+  </td>
+  <td>
+  Anu Tummala   <span class="android">(Android)</span> 
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Matthew   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Jenny   <span class="qa">(QA)</span>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Rinky Sasidhar   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  <p> Ismail Yusaf   <span class="qa">(QA)</span></p>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Thom   <span class="qa">(QA)</span>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>
+  Kellie Peters   <span class="qa">(QA)</span>
+  </td>
+  <td>
+  Nish Jambudi   <span class="qa">(QA)</span>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ </table>
+<p></p>
+
+</body>
+
+</html>
