@@ -1,27 +1,30 @@
-<html >
-
-<head>
-<!--link rel="stylesheet" type="text/css" href="/css/bootstrap-reboot.css">
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.css"-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <style>
-  .table .td {padding:0;}  
+  .table tr {}
+  .table td {padding:.75rem 0 3.5rem .5rem;position:relative;}  
   td.android {background-color:#DDFADD;}
   td.ios {background-color:#F0F0F0;}
   td.qa {background-color:#FFFFDD;}
   td.server {background-color:#E0F0FF;color:#000;}
   td.web {background-color:#FFE7E7;}
 
-  .android, .ios, .qa, .server, .web {display:block;text-align:center;padding:3px 0;}
-  .android {background-color:#ACD67C;}
-  .ios {background-color:#BDBCBD;}
-  .qa {background-color:#F8E41C;}
-  .server {background-color:#4a90e2;color:#fff;}
-  .web {background-color:#F77484;}
+  div.android, div.ios, div.qa, div.server, div.web {display:block;text-align:center;padding:3px 0;position:absolute;bottom:0;left:0;right:0;}
+  div.android {background-color:#ACD67C;}
+  div.ios {background-color:#BDBCBD;} 
+  div.qa {background-color:#F8E41C;}
+  div.server {background-color:#4a90e2;color:#fff;}
+  div.web {background-color:#F77484;}
   </style>
 </head>
 
 <body>
+<div class="container-fluid">  <!-- activates bootstrap's grid-->
 
 <h1>2018.R3-PI3 - All Feature Teams</h1>
 
@@ -522,41 +525,44 @@
  <!-- ~~ --> 
  <tr >
   <td></td>
-  <td>
-  Colin  <p></p><span class="ios">(iOS)</span> 
-  </td>
-  <td>
-  Joe    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Colin  
+  <div class="ios">iOS</div> 
+  </td> 
+  <td class="ios">
+  Joe  
+  <div class="ios">iOS</div> 
   </td>
   <td class="ios">
-  Wyatt    <span class="ios">(iOS)</span> 
-  </td>
-  <td>
-  Darrin   <span class="server">(server)</span>
-  </td>
-  <td class="web">
-  Pete   <span class="web">(web)</span>
-  </td>
-  <td>
-  Seth R   <span class="web">(web)</span>
-  </td>
-  <td>
-  Justin    <span class="ios">(iOS)</span> 
+  Wyatt    
+  <div class="ios">iOS</div> 
   </td>
   <td class="server">
-  Geoff Petrie (MDT)   <span class="server">(server)</span>
+  Darrin   <div class="server">server</div> 
   </td>
-  <td>
-  Chris Merritt   <span class="web">(web)</span>
+  <td class="web">
+  Pete   <div class="web">web</div> 
   </td>
-  <td>
-  Chris Trainor    <span class="ios">(iOS)</span> 
+  <td class="web">
+  Seth R   <div class="web">web</div> 
   </td>
-  <td>
-  Stephen Francis    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Justin    <div class="ios">iOS</div> 
   </td>
-  <td>
-  Yi Meng   <span class="server">(server)</span>
+  <td class="server">
+  Geoff Petrie (MDT)   <div class="server">server</div> 
+  </td>
+  <td class="web">
+  Chris Merritt   <div class="web">web</div> 
+  </td>
+  <td class="ios">
+  Chris Trainor    <div class="ios">iOS</div> 
+  </td>
+  <td class="ios">
+  Stephen Francis    <div class="ios">iOS</div> 
+  </td>
+  <td class="server">
+  Yi Meng   <div class="server">server</div>
   </td>
   <td>
   Jeff Babbitt
@@ -571,41 +577,41 @@
  
  <tr >
   <td></td>
-  <td>
-  Tyler    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Tyler    <div class="ios">iOS</div> 
   </td>
-  <td>
-  Josh    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Josh    <div class="ios">iOS</div> 
   </td>
-  <td>
-  Taru    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Taru    <div class="ios">iOS</div> 
   </td>
-  <td>
-  Heidi   <span class="server">(server)</span>
+  <td class="server">
+  Heidi   <div class="server">server</div> 
   </td>
-  <td>
-  Patrick   <span class="web">(web)</span>
+  <td class="web">
+  Patrick   <div class="web">web</div> 
   </td>
-  <td>
-  TBH   <span class="web">(web)</span>
+  <td class="web">
+  TBH   <div class="web">web</div> 
   </td>
   <td class="android">
-  Jon   <span class="android">(Android)</span> 
+  Jon   <div class="android">Android</div>  
   </td>
-  <td>
-  Taylor Brooks (CDT)   <span class="server">(server)</span>
+  <td class="server">
+  Taylor Brooks (CDT)   <div class="server">server</div> 
   </td>
-  <td>
-  Bryan Clover   <span class="web">(web)</span>
+  <td class="web">
+  Bryan Clover   <div class="web">web</div> 
   </td>
-  <td>
-  Aaron Yang    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Aaron Yang    <div class="ios">iOS</div> 
   </td>
-  <td>
-  Chandrima Ghosh    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Chandrima Ghosh    <div class="ios">iOS</div> 
   </td>
-  <td>
-  Amod Largo   <span class="server">(server)</span>
+  <td class="server">
+  Amod Largo   <div class="server">server</div> 
   </td>
   <td>
   Jon Poplar
@@ -622,35 +628,35 @@
   <td></td>
   <td></td>
   <td></td>
-  <td>
-  Scott M    <span class="ios">(iOS)</span> 
+  <td class="ios">
+  Scott M    <div class="ios">iOS</div> 
   </td>
-  <td>
-  Azeem   <span class="server">(server)</span>
+  <td class="server">
+  Azeem   <div class="server">server</div> 
   </td>
-  <td>
-  Zach Bell   <span class="web">(web)</span>
+  <td class="web">
+  Zach Bell   <div class="web">web</div> 
   </td>
-  <td>
-  Laura   <span class="web">(web)</span>
+  <td class="web">
+  Laura   <div class="web">web</div> 
   </td>
-  <td>
-  Eric   <span class="web">(web)</span>
+  <td class="web">
+  Eric   <div class="web">web</div> 
   </td>
-  <td>
-  Shaun Ambrose (MDT)   <span class="server">(server)</span>
+  <td class="server">
+  Shaun Ambrose (MDT)   <div class="server">server</div> 
   </td>
-  <td>
-  Ian Anderson   <span class="web">(web)</span>
+  <td class="web">
+  Ian Anderson   <div class="web">web</div> 
   </td>
-  <td>
-  Brian Dellaterra   <span class="web">(web)</span>
+  <td class="web">
+  Brian Dellaterra   <div class="web">web</div> 
   </td>
-  <td>
-  Allen Li   <span class="web">(web)</span>
+  <td class="web">
+  Allen Li   <div class="web">web</div> 
   </td>
   <td class="qa">
-  Alex Babeu   <span class="qa">(QA)</span>
+  Alex Babeu   <div class="qa">QA</div> 
   </td>
   <td>
   Bill Jorgensen
@@ -663,38 +669,38 @@
  
  <tr>
   <td></td>
-  <td>
-  Mike   <span class="android">(Android)</span> 
+  <td class="android">
+  Mike   <div class="android">Android</div>  
   </td>
-  <td>
-  Teagan   <span class="android">(Android)</span> 
+  <td class="android">
+  Teagan   <div class="android">Android</div>  
   </td>
-  <td>
-  Ryan   <span class="android">(Android)</span> 
+  <td class="android">
+  Ryan   <div class="android">Android</div>  
   </td>
-  <td>
-  TBH   <span class="server">(server)</span>
+  <td class="server">
+  TBH   <div class="server">server</div> 
   </td>
-  <td>
-  Rachel   <span class="web">(web)</span>
+  <td class="web">
+  Rachel   <div class="web">web</div> 
   </td>
-  <td>
-  Andrew   <span class="web">(web)</span>
+  <td class="web">
+  Andrew   <div class="web">web</div> 
   </td>
-  <td>
-  Joel   <span class="qa">(QA)</span>
+  <td class="qa">
+  Joel   <div class="qa">QA</div> 
   </td>
-  <td>
-  Andrei Antipin (PDT)   <span class="qa">(QA)</span>
+  <td class="qa">
+  Andrei Antipin (PDT)   <div class="qa">QA</div> 
   </td>
-  <td>
-  Cindy Haden   <span class="web">(web)</span>
+  <td class="web">
+  Cindy Haden   <div class="web">web</div> 
   </td>
-  <td>
-  Vidhi Bhardwaj   <span class="web">(web)</span>
+  <td class="web">
+  Vidhi Bhardwaj   <div class="web">web</div> 
   </td>
-  <td>
-  Yash Pandit   <span class="web">(web)</span>
+  <td class="web">
+  Yash Pandit   <div class="web">web</div> 
   </td>
   <td></td>
   <td></td>
@@ -706,34 +712,34 @@
  
  <tr>
   <td></td>
-  <td>
-  Carter   <span class="android">(Android)</span> 
+  <td class="android">
+  Carter   <div class="android">Android</div>  
   </td>
-  <td>
-  Chris C   <span class="android">(Android)</span> 
+  <td class="android">
+  Chris C   <div class="android">Android</div>  
   </td>
-  <td>
-  Chris G   <span class="android">(Android)</span> 
+  <td class="android">
+  Chris G   <div class="android">Android</div>  
   </td>
-  <td>
-  Scott S   <span class="server">(server)</span>
+  <td class="server">
+  Scott S   <div class="server">server</div> 
   </td>
-  <td>
-  Chris B   <span class="web">(web)</span>
+  <td class="web">
+  Chris B   <div class="web">web</div> 
   </td>
-  <td>
-  Jonah   <span class="web">(web)</span>
+  <td class="web">
+  Jonah   <div class="web">web</div> 
   </td>
   <td></td>
   <td></td>
-  <td>
-  Igor Dorosvskikh   <span class="qa">(QA)</span>
+  <td class="qa">
+  Igor Dorosvskikh   <div class="qa">QA</div> 
   </td>
-  <td>
-  Michael Stevens   <span class="android">(Android)</span> 
+  <td class="android">
+  Michael Stevens   <div class="android">Android</div>  
   </td>
-  <td>
-  Chris Robichaud   <span class="android">(Android)</span> 
+  <td class="android">
+  Chris Robichaud   <div class="android">Android</div>  
   </td>
   <td></td>
   <td></td>
@@ -743,56 +749,31 @@
  
  <tr>
   <td></td>
-  <td>Chris G   <span class="qa">(QA)</span></td>
-  <td>
-  Brian   <span class="qa">(QA)</span>
+  <td class="qa">
+  Chris G   <div class="qa">QA</div> </td>
+  <td class="qa">
+  Brian   <div class="qa">QA</div> 
   </td>
-  <td>
-  Yun   <span class="qa">(QA)</span>
+  <td class="qa">
+  Yun   <div class="qa">QA</div> 
   </td>
-  <td>
-  TBH   <span class="server">(server)</span>
+  <td class="server">
+  TBH   <div class="server">server</div> 
   </td>
-  <td>
-  Darryl   <span class="qa">(QA)</span>
+  <td class="qa">
+  Darryl   <div class="qa">QA</div> 
   </td>
-  <td>
-  Zach A   <span class="qa">(QA)</span>
-  </td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>
-  Khurrum Chaudhry   <span class="android">(Android)</span> 
-  </td>
-  <td>
-  Anu Tummala   <span class="android">(Android)</span> 
+  <td class="qa">
+  Zach A   <div class="qa">QA</div> 
   </td>
   <td></td>
   <td></td>
   <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>
-  Matthew   <span class="qa">(QA)</span>
+  <td class="android">
+  Khurrum Chaudhry   <div class="android">Android</div>  
   </td>
-  <td>
-  Jenny   <span class="qa">(QA)</span>
-  </td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>
-  Rinky Sasidhar   <span class="qa">(QA)</span>
-  </td>
-  <td>
-  <p> Ismail Yusaf   <span class="qa">(QA)</span></p>
+  <td class="android">
+  Anu Tummala   <div class="android">Android</div>  
   </td>
   <td></td>
   <td></td>
@@ -804,19 +785,45 @@
   <td></td>
   <td></td>
   <td></td>
-  <td>
-  Thom   <span class="qa">(QA)</span>
+  <td class="qa">
+  Matthew   <div class="qa">QA</div> 
+  </td>
+  <td class="qa">
+  Jenny   <div class="qa">QA</div> 
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="qa">
+  Rinky Sasidhar   <div class="qa">QA</div> 
+  </td>
+  <td class="qa">
+  <p> Ismail Yusaf   <div class="qa">QA</div> </p>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="qa">
+  Thom   <div class="qa">QA</div> 
   </td>
   <td></td>
   <td></td>
   <td></td>
   <td></td>
   <td></td>
-  <td>
-  Kellie Peters   <span class="qa">(QA)</span>
+  <td class="qa">
+  Kellie Peters   <div class="qa">QA</div> 
   </td>
-  <td>
-  Nish Jambudi   <span class="qa">(QA)</span>
+  <td class="qa">
+  Nish Jambudi   <div class="qa">QA</div> 
   </td>
   <td></td>
   <td></td>
@@ -825,6 +832,7 @@
  </tr>
  </table>
 <p></p>
+</div>
 
 </body>
 
